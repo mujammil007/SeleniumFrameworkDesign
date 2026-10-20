@@ -1,0 +1,19 @@
+[
+	{
+		"email" 		: "sahil@test.com",
+		"pass" 			: "Sahil@1998",
+		"ProductName" 	: "ZARA COAT 3"
+	},
+	
+	{
+		"email" 		: "sahil1@test.com",
+		"pass" 			: "Sahil@1998",
+		"ProductName" 	: "ADIDAS ORIGINAL"
+	},
+	
+	{
+		"email" 		: "sahil@test.com",
+		"pass" 			: "Sahil@1998",
+		"ProductName" 	: "IPHONE 13 PRO"	
+	}
+]
