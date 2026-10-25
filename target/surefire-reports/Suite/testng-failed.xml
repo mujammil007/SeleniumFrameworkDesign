@@ -8,6 +8,7 @@
     <classes>
       <class name="SeleniumFrameworkDesign.Tests.ErrorValidationsTest">
         <methods>
+          <include name="ProductErrorValidation"/>
           <include name="LoginErrorValidation"/>
           <include name="tearDown"/>
           <include name="launchApplcation"/>
@@ -21,8 +22,8 @@
         <methods>
           <include name="OrderHistory"/>
           <include name="tearDown"/>
+          <include name="submitorder"/>
           <include name="launchApplcation"/>
-          <include name="submitorder" invocation-numbers="1"/>
         </methods>
       </class> <!-- SeleniumFrameworkDesign.Tests.SubmitOrderTest -->
     </classes>

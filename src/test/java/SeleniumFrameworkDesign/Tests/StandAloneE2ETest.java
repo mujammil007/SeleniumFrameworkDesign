@@ -78,3 +78,7 @@ public class StandAloneE2ETest {
 		
 	}
 }
+
+//Adding some demo tests for git hub tests
+//GitHub test
+
