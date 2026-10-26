@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="11.696" tests="11" errors="0" skipped="6" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="28.769" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\shaik\AppData\Local\Temp\surefire17612432280933675740\surefirebooter-20261025111721334_3.jar C:\Users\shaik\AppData\Local\Temp\surefire17612432280933675740 2026-10-25T11-17-21_162-jvmRun1 surefire-20261025111721334_1tmp surefire_0-20261025111721334_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shaik\AppData\Local\Temp\surefire4604288892706369608\surefirebooter-20261026092808309_3.jar C:\Users\shaik\AppData\Local\Temp\surefire4604288892706369608 2026-10-26T09-28-08_088-jvmRun1 surefire-20261026092808309_1tmp surefire_0-20261026092808309_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\shaik\eclipse-workspace\SeleniumFrameworkDesign\target\test-classes;C:\Users\shaik\eclipse-workspace\SeleniumFrameworkDesign\target\classes;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.45.0\selenium-java-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.45.0\selenium-api-4.45.0.jar;C:\Users\shaik\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.45.0\selenium-chrome-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.45.0\selenium-chromium-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.45.0\selenium-json-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.45.0\selenium-manager-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.45.0\selenium-devtools-latest-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.45.0\selenium-devtools-v147-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.45.0\selenium-devtools-v148-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.45.0\selenium-devtools-v149-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.45.0\selenium-edge-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.45.0\selenium-firefox-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.45.0\selenium-http-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.45.0\selenium-ie-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.45.0\selenium-remote-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\shaik\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\shaik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shaik\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\shaik\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-api\1.63.0\opentelemetry-api-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-context\1.63.0\opentelemetry-context-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-common\1.63.0\opentelemetry-common-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.63.0\opentelemetry-exporter-logging-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.63.0\opentelemetry-sdk-common-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.63.0\opentelemetry-sdk-extension-autoconfigure-spi-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.63.0\opentelemetry-sdk-extension-autoconfigure-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.63.0\opentelemetry-sdk-trace-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.63.0\opentelemetry-sdk-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.63.0\opentelemetry-sdk-metrics-1.63.0.jar;C:\Users\shaik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.63.0\opentelemetry-sdk-logs-1.63.0.jar;C:\Users\shaik\.m2\repository\net\bytebuddy\byte-buddy\1.18.10\byte-buddy-1.18.10.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.45.0\selenium-os-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.45.0\selenium-safari-driver-4.45.0.jar;C:\Users\shaik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.45.0\selenium-support-4.45.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-java\8.0.3\cucumber-java-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-core\8.0.3\cucumber-core-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-gherkin\8.0.3\cucumber-gherkin-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-gherkin-messages\8.0.3\cucumber-gherkin-messages-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\gherkin\42.0.1\gherkin-42.0.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\messages\34.2.1\messages-34.2.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\messages-ndjson\0.5.2\messages-ndjson-0.5.2.jar;C:\Users\shaik\.m2\repository\io\cucumber\pretty-formatter\4.1.0\pretty-formatter-4.1.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\query\16.1.1\query-16.1.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\teamcity-formatter\0.3.1\teamcity-formatter-0.3.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\testng-xml-formatter\0.9.0\testng-xml-formatter-0.9.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\usage-formatter\0.2.1\usage-formatter-0.2.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\tag-expressions\11.0.1\tag-expressions-11.0.1.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-expressions\20.1.0\cucumber-expressions-20.1.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-json-formatter\0.4.2\cucumber-json-formatter-0.4.2.jar;C:\Users\shaik\.m2\repository\io\cucumber\datatable\8.0.3\datatable-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-plugin\8.0.3\cucumber-plugin-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\docstring\8.0.3\docstring-8.0.3.jar;C:\Users\shaik\.m2\repository\io\cucumber\html-formatter\24.2.0\html-formatter-24.2.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\junit-xml-formatter\0.15.0\junit-xml-formatter-0.15.0.jar;C:\Users\shaik\.m2\repository\io\cucumber\ci-environment\15.0.0\ci-environment-15.0.0.jar;C:\Users\shaik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shaik\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\shaik\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\shaik\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\shaik\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\shaik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shaik\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\shaik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.1\jackson-databind-2.22.1.jar;C:\Users\shaik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\shaik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.1\jackson-core-2.22.1.jar;C:\Users\shaik\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar;C:\Users\shaik\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\shaik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shaik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shaik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shaik\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shaik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shaik\AppData\Local\Temp\surefire17612432280933675740\surefirebooter-20261025111721334_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shaik\AppData\Local\Temp\surefire4604288892706369608\surefirebooter-20261026092808309_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Maven\apache-maven-3.9.10\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\shaik\AppData\Local\Microsoft\WindowsApps;C:\Users\shaik\AppData\Roaming\npm;C:\Users\shaik\AppData\Local\Programs\Microsoft VS Code\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Maven\apache-maven-3.9.10\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\shaik\AppData\Local\Microsoft\WindowsApps;C:\Users\shaik\AppData\Roaming\npm;C:\Users\shaik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shaik\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,51 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="launchApplcation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="6.013">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8b3bf8bfa8531885bf83bff45ce66ab2, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50605}, goog:processID: 24756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50605/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b3bf8bfa8531885bf83bff45ce66ab2" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=155.0.8059.86)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b3bf8bfa8531885bf83bff45ce66ab2, get {url=https://rahulshettyacademy.com/client/#/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50605}, goog:processID: 24756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50605/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b3bf8bfa8531885bf83bff45ce66ab2
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:341)
-	at SeleniumFrameworkDesign.pageObject.LandingPage.goToUrl(LandingPage.java:42)
-	at SeleniumFrameworkDesign.TestComponents.BaseTest.launchApplcation(BaseTest.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
+  <testcase name="LoginErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.669">
     <system-out><![CDATA[========== BROWSER DEBUG ==========
 System property browser: chrome
 Config property browser: chrome
@@ -118,280 +74,24 @@ Final browserName: chrome
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Oct 25, 2026 11:17:24 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-Oct 25, 2026 11:17:24 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
-Oct 25, 2026 11:17:24 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-Oct 25, 2026 11:17:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 26, 2026 9:28:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 25, 2026 11:17:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 26, 2026 9:28:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 25, 2026 11:17:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 26, 2026 9:28:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 25, 2026 11:17:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 26, 2026 9:28:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="launchApplcation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.243">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a05eebe48bccb7fd2519c9e9d004b66d, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56264}, goog:processID: 39864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56264/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a05eebe48bccb7fd2519c9e9d004b66d" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=155.0.8059.86)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a05eebe48bccb7fd2519c9e9d004b66d, get {url=https://rahulshettyacademy.com/client/#/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56264}, goog:processID: 39864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56264/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a05eebe48bccb7fd2519c9e9d004b66d
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:341)
-	at SeleniumFrameworkDesign.pageObject.LandingPage.goToUrl(LandingPage.java:42)
-	at SeleniumFrameworkDesign.TestComponents.BaseTest.launchApplcation(BaseTest.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-  </testcase>
-  <testcase name="LoginErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.0">
-    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8b3bf8bfa8531885bf83bff45ce66ab2, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50605}, goog:processID: 24756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50605/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b3bf8bfa8531885bf83bff45ce66ab2"/>
-  </testcase>
-  <testcase name="ProductErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.0">
-    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8b3bf8bfa8531885bf83bff45ce66ab2, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50605}, goog:processID: 24756, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50605/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b3bf8bfa8531885bf83bff45ce66ab2"/>
-  </testcase>
-  <testcase name="launchApplcation" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="6.025">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [393da41dcdde26a9bdc9d16f0d2ef996, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50604}, goog:processID: 38716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50604/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 393da41dcdde26a9bdc9d16f0d2ef996" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=155.0.8059.86)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [393da41dcdde26a9bdc9d16f0d2ef996, get {url=https://rahulshettyacademy.com/client/#/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50604}, goog:processID: 38716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50604/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 393da41dcdde26a9bdc9d16f0d2ef996
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:341)
-	at SeleniumFrameworkDesign.pageObject.LandingPage.goToUrl(LandingPage.java:42)
-	at SeleniumFrameworkDesign.TestComponents.BaseTest.launchApplcation(BaseTest.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-  </testcase>
-  <testcase name="launchApplcation" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="2.805">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [858c055d9167ef20bd7bc1180d6efe5e, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60123}, goog:processID: 40240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 858c055d9167ef20bd7bc1180d6efe5e" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=155.0.8059.86)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [858c055d9167ef20bd7bc1180d6efe5e, get {url=https://rahulshettyacademy.com/client/#/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60123}, goog:processID: 40240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 858c055d9167ef20bd7bc1180d6efe5e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:341)
-	at SeleniumFrameworkDesign.pageObject.LandingPage.goToUrl(LandingPage.java:42)
-	at SeleniumFrameworkDesign.TestComponents.BaseTest.launchApplcation(BaseTest.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
-    <system-out><![CDATA[========== BROWSER DEBUG ==========
-System property browser: chrome
-Config property browser: chrome
-Final browserName: chrome
-===================================
-========== BROWSER DEBUG ==========
-System property browser: chrome
-Config property browser: chrome
-Final browserName: chrome
-===================================
-]]></system-out>
-    <system-err><![CDATA[Oct 25, 2026 11:17:28 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-
-Oct 25, 2026 11:17:28 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-
-Oct 25, 2026 11:17:28 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-Oct 25, 2026 11:17:28 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-Oct 25, 2026 11:17:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 155
-Oct 25, 2026 11:17:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Oct 25, 2026 11:17:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 155
-Oct 25, 2026 11:17:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="launchApplcation" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="2.082">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [00b94d1a6dbc0409a557b0a9b049207b, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60675}, goog:processID: 34668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60675/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 00b94d1a6dbc0409a557b0a9b049207b" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=155.0.8059.86)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00b94d1a6dbc0409a557b0a9b049207b, get {url=https://rahulshettyacademy.com/client/#/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60675}, goog:processID: 34668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60675/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 00b94d1a6dbc0409a557b0a9b049207b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:341)
-	at SeleniumFrameworkDesign.pageObject.LandingPage.goToUrl(LandingPage.java:42)
-	at SeleniumFrameworkDesign.TestComponents.BaseTest.launchApplcation(BaseTest.java:110)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-]]></failure>
+  <testcase name="ProductErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="3.334">
     <system-out><![CDATA[========== BROWSER DEBUG ==========
 System property browser: chrome
 Config property browser: chrome
 Final browserName: chrome
 ===================================
 ]]></system-out>
-    <system-err><![CDATA[Oct 25, 2026 11:17:31 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Oct 26, 2026 9:28:21 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
@@ -410,45 +110,20 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
-Oct 25, 2026 11:17:31 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
-
-Oct 25, 2026 11:17:31 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
-WARNING: There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
-Oct 25, 2026 11:17:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 26, 2026 9:28:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 155
-Oct 25, 2026 11:17:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 26, 2026 9:28:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="submitorder[{ProductName=ZARA COAT 3, pass=Sahil@1998, email=sahil@test.com}](1)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.0">
-    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [393da41dcdde26a9bdc9d16f0d2ef996, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50604}, goog:processID: 38716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50604/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 393da41dcdde26a9bdc9d16f0d2ef996"/>
-  </testcase>
-  <testcase name="submitorder[{ProductName=ADIDAS ORIGINAL, pass=Sahil@1998, email=sahil1@test.com}](2)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.0">
-    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [858c055d9167ef20bd7bc1180d6efe5e, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60123}, goog:processID: 40240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 858c055d9167ef20bd7bc1180d6efe5e"/>
-  </testcase>
-  <testcase name="submitorder[{ProductName=IPHONE 13 PRO, pass=Sahil@1998, email=sahil@test.com}](3)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.0">
-    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=155.0.8059.86)&#10;Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [858c055d9167ef20bd7bc1180d6efe5e, get {url=https://rahulshettyacademy.com/client/#/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.86, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\shaik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60123}, goog:processID: 40240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 155.0.8059.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 858c055d9167ef20bd7bc1180d6efe5e"/>
-  </testcase>
-  <testcase name="OrderHistory" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.0">
-    <skipped message="Method SeleniumFrameworkDesign.Tests.SubmitOrderTest.OrderHistory() on instance SeleniumFrameworkDesign.Tests.SubmitOrderTest@26abb146 depends on not successfully finished methods &#10;[SeleniumFrameworkDesign.Tests.SubmitOrderTest.submitorder() on instance SeleniumFrameworkDesign.Tests.SubmitOrderTest@26abb146]"/>
-    <system-err><![CDATA[Oct 25, 2026 11:17:33 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+  <testcase name="submitorder[{ProductName=ZARA COAT 3, pass=Sahil@1998, email=sahil@test.com}](1)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.807">
+    <system-out><![CDATA[========== BROWSER DEBUG ==========
+System property browser: chrome
+Config property browser: chrome
+Final browserName: chrome
+===================================
+]]></system-out>
+    <system-err><![CDATA[Oct 26, 2026 9:28:17 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
@@ -467,6 +142,77 @@ java.net.SocketException: Connection reset
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
+Oct 26, 2026 9:28:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 26, 2026 9:28:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="submitorder[{ProductName=ADIDAS ORIGINAL, pass=Sahil@1998, email=sahil1@test.com}](2)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="3.823">
+    <system-err><![CDATA[Oct 26, 2026 9:28:23 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+
+]]></system-err>
+  </testcase>
+  <testcase name="submitorder[{ProductName=IPHONE 13 PRO, pass=Sahil@1998, email=sahil@test.com}](3)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="3.906">
+    <system-out><![CDATA[========== BROWSER DEBUG ==========
+System property browser: chrome
+Config property browser: chrome
+Final browserName: chrome
+===================================
+]]></system-out>
+    <system-err><![CDATA[Oct 26, 2026 9:28:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 26, 2026 9:28:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="OrderHistory" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.877">
+    <system-out><![CDATA[========== BROWSER DEBUG ==========
+System property browser: chrome
+Config property browser: chrome
+Final browserName: chrome
+===================================
+]]></system-out>
+    <system-err><![CDATA[Oct 26, 2026 9:28:34 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+
+Oct 26, 2026 9:28:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 26, 2026 9:28:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for 155.0.8059.86. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.45.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>
